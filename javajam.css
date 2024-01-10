@@ -67,7 +67,12 @@ img {padding-left: 10px;
        box-sizing: border-box;
 }
 
-
- 
-
+#container{
+       background-color: white;
+       width: 70%;
+       margin: auto;
+       min-width: 900px;
+       max-width: 1280px;
+       box-shadow: 3px 3px 3px;
+}
  
