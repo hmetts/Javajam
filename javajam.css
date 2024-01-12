@@ -1,3 +1,4 @@
+
 body { background-color: #FCEBB6;
        color: #221811;
        font-family: Tahoma, Arial, sans-serif;
@@ -5,6 +6,7 @@ body { background-color: #FCEBB6;
        background-repeat: no-repeat;
        background-size: cover;
        background-attachment: fixed;
+       
 }
 #wrapper { background-color: #FEFAEB;
            margin-left: auto;
@@ -15,11 +17,20 @@ body { background-color: #FCEBB6;
            box-sizing: 3px 3px 3px #676767;
 }  
 header { background-color: #D2B48C;
-         color: #8C3826;
-        text-align: center;
+         color: #231814;
        padding-top: 5px;
        padding-bottom: 5px;
+       background-image: url(coffeelogo.jpg);
+       background-repeat: no-repeat;
+       padding-left: 240px;
+
 }
+header a{text-decoration: none;}
+header a:visited{ color:#231814;}
+header a:link{color: #231814;}
+header a:hover{color: #FEF6C2;}
+
+
 h1 {font-size: 3em; }
 h2 { color: #8C3826; }
 nav { font-weight: bold;
@@ -27,10 +38,20 @@ nav { font-weight: bold;
        font-size: 1.5em;
        padding-top: 5px;
        padding-bottom: 5px;
+       float: left;
+       width: 200px;
+       
+       
 }
-nav a {
-       text-decoration: none;
+nav a {text-decoration: none;}
+nav a:link {color: #FEF6C2;}
+nav a:visited {color: #D2B48C;}
+nav a:hover {color: #CC9933;}
+nav ul{
+       padding-left: 0;
+       list-style-type: none;
 }
+
 footer { background-color: #D2B48C;
          font-size: .60em;
         font-style: italic;
@@ -43,17 +64,26 @@ h4 {
        font-size: 1.2em;
        padding-left: .5em;
        padding-bottom: .25em;
+       text-transform: uppercase;
+       border-bottom: 1px solid #221811 ; 
+       float: left;
+       padding-bottom: 0;
 }
-h3, dt {color: #8C3826}
+h3, dt {color: #8C3826;}
 main {
-       padding-left: 2em;
-       padding-right: 2em;
+       padding-left: 0;
+       padding-right: 0;
        padding-bottom: 2em;
        display: block;
-}
+       margin-left: 200px;
+       padding-top: 0;
+       background-color: #FEF6C2;
+       overflow: auto;
+       }
 .details {
        padding-left: 20%;
        padding-right: 20%;
+       overflow: auto;
 }
 img {padding-left: 10px;
        padding-right: 10px;}
@@ -61,18 +91,52 @@ img {padding-left: 10px;
        height: 300px;
        background-image: url(hero.jpg);
        background-repeat: no-repeat;
-       background-size: cover;
+       background-size: 100%100%;
+
 }
 * {
        box-sizing: border-box;
 }
 
-#container{
-       background-color: white;
+#wrapper{
+       background-color: #231814;
        width: 70%;
        margin: auto;
        min-width: 900px;
        max-width: 1280px;
        box-shadow: 3px 3px 3px;
+       padding: 0;
+       
 }
+#heromugs{
+       height: 300px;
+       background-image: url(heromugs.jpg);
+       background-repeat: no-repeat;
+       background-size: 100%100%;
+}
+#heroguitar{
+       height: 300px;
+       background-image: url(heroguitar.jpg);
+       background-repeat: no-repeat;
+       background-size: 100%100%;
+}
+h2,h3,h4,p,div,ul,dl{
+       padding-left: 3em;
+       padding-right: 2em;
+}
+.class{
+       float: left;
+       padding-right: 2em;
+       padding-bottom: 2em;
+}
+.onethird{
+       float: left;
+       width: 33%;
+}
+.floatleft{
+       float: left;
+       padding-right: 2em;
+       padding-bottom: 2em;
+}
+
  
